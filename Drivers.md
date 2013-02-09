@@ -51,6 +51,7 @@ Runnning Wappalyzer from the command line:
 Running Wappalyzer inside a PHP script:
 
 ```php
+<?php
 require('WappalyzerException.php');
 require('Wappalyzer.php');
 
