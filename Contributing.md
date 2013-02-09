@@ -11,6 +11,8 @@
 
 * Read the [specification](https://github.com/ElbertF/Wappalyzer/wiki/Specification).
 
+Feel free to update the [wiki](https://github.com/ElbertF/Wappalyzer/wiki/Unofficial-drivers-and-ports) with a link to your project!
+
 ## Adding a new category
 
 Please [open an issue](https://github.com/ElbertF/Wappalyzer/issues) to discuss first. Adding a category involves updating `apps.json`,
