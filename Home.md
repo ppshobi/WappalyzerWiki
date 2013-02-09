@@ -1,5 +1,5 @@
 [Wappalyzer](http://wappalyzer.com/) is a 
-[browser extension](http://wappalyzer.com/download) that uncovers the 
+[cross-platform](https://github.com/ElbertF/Wappalyzer/wiki/Drivers) utility that uncovers the 
 technologies used on websites.  It detects
 [content management systems](http://wappalyzer.com/categories/cms),
 [web shops](http://wappalyzer.com/categories/web-shops),
