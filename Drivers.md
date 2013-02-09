@@ -5,8 +5,7 @@ a development environment for the various existing drivers.
 To keep files synchronised between drivers, run `links.sh` (UNIX-like systems)
 or `links.cmd` (Windows).
 
-
-### Mozilla Firefox
+## Mozilla Firefox
 
 * Place a file called `wappalyzer@crunchlabz.com` in the extensions directory in
   your [profile folder](http://kb.mozillazine.org/Profile_folder_-_Firefox) 
@@ -16,30 +15,26 @@ or `links.cmd` (Windows).
 * Navigate to `about:config` and set `extensions.wappalyzer.debug` to `true`.
 * Ctrl+Shift+J brings up a console for debugging.
 
-
-### Google Chrome
+## Google Chrome
 
 * Navigate to `about:extensions`
 * Check "Developer mode"
 * Click "Load unpacked extension..."
 * Select `drivers/chrome/`
 
-
-### Bookmarklet
+## Bookmarklet
 
 Beta version available for testing at 
 [wappalyzer.com/bookmarklet](http://wappalyzer.com/bookmarklet).
 
-
-### HTML
+## HTML
 
 The HTML driver serves purely as an example. It's a good starting point if you
 want to port Wappalyzer to a new platform.
 
 * Navigate to `drivers/html/`
 
-
-### PHP
+## PHP
 
 The PHP driver requires the [V8js](http://php.net/manual/en/book.v8js.php) 
 class. Installing V8js using [PECL](http://pecl.php.net/) on Debian Linux or 
@@ -64,7 +59,6 @@ $wappalyzer = new Wappalyzer($url);
 $detectedApps = $wappalyzer->analyze();
 ```
 
-
-### Mozilla Jetpack
+## Mozilla Jetpack
 
 Work in progress, experimental. See https://wiki.mozilla.org/Jetpack.
