@@ -1,5 +1,7 @@
 ## apps.json
 
+Wappalyzer uses a long list of regular expressions to evaluate web pages and detect web applications. The list is located at [`share/apps.json`](https://github.com/ElbertF/Wappalyzer/blob/master/share/apps.json).
+
 #### Example
 
 ```javascript
@@ -19,26 +21,22 @@
 
 field      | type   | description
 -----------|--------|------------
-cats       | array  | List of category IDs. See [apps.json](https://github.com/ElbertF/Wappalyzer/blob/master/share/apps.json) for the complete list.
-env        | string | Global JavaScript variables, e.g. `jQuery`.
-headers    | object | HTTP Response headers, e.g. `X-Powered-By`.
-html       | string | Full HTML response body.
-implies    | array  | The presence of one application can imply the presence of another, e.g. Drupal means PHP is also in use.
-url        | string | URL of the page, e.g. `http://wordpress.com/index.php`.
-meta       | object | HTML meta tags, e.g. `generator`.
-script     | string | `src` attribute of HTML script tags, e.g. `jquery.js`.
+cats       | array          | List of category IDs. See [apps.json](https://github.com/ElbertF/Wappalyzer/blob/master/share/apps.json) for the complete list.
+env        | array / string | Global JavaScript variables, e.g. `jQuery`.
+headers    | object         | HTTP Response headers, e.g. `X-Powered-By`.
+html       | array / string | Full HTML response body.
+implies    | array / string | The presence of one application can imply the presence of another, e.g. Drupal means PHP is also in use.
+url        | array / string | URL of the page, e.g. `http://wordpress.com/index.php`.
+meta       | object         | HTML meta tags, e.g. `generator`.
+script     | array / string | `src` attribute of HTML script tags, e.g. `jquery.js`.
 
-Except `cats`, all fields are optional.
-
-Except `cats` and `implied` all fields accept one or more patterns (either a string or an array of regular expressions).
-
-
+Except `cats`, all fields are optional and accept one or more patterns (either a string or an array of regular expressions).
 
 ### Patterns
 
-Patterns are case insensitive [regular expressions](https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Regular_Expressions). No surrounding delimiters or flags are used.
+Patterns are case insensitive [regular expressions](https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Regular_Expressions). No surrounding delimiters or flags are used. Note that escape characters need to be escaped themselves for the JSON to be valid. Slashes (`/`) do not need to be escaped.
 
-Optional fields can be added, separated by `\\;`:
+Optional fields can be appended, separated by `\\;`:
 
 field      | description
 -----------|------------
