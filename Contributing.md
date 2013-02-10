@@ -1,4 +1,4 @@
-Anyone who wants to contribute is more than welcome to do so. Wappalyzer has been improved by [many](https://github.com/ElbertF/Wappalyzer/graphs/contributors).
+Anyone who wants to contribute is more than welcome to do so! Wappalyzer has been improved by [many](https://github.com/ElbertF/Wappalyzer/graphs/contributors).
 
 To get started, please read the guidelines below as well as the [specification](https://github.com/ElbertF/Wappalyzer/wiki/Specification).
 
