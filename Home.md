@@ -9,3 +9,5 @@ technologies used on websites.  It detects
 [many more](http://wappalyzer.com/applications).
 
 *Licensed under the [GPL](https://github.com/ElbertF/Wappalyzer/blob/master/LICENSE).*
+
+Navigate to the [Pages](https://github.com/ElbertF/Wappalyzer/wiki/_pages) tab to browse the contents of this wiki.
