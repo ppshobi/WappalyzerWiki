@@ -4,9 +4,9 @@ To get started, please read the guidelines below as well as the [specification](
 
 ## Adding a new application
 
-* Edit `share/apps.json` (use a JSON 
+* Edit [`share/apps.json`](https://github.com/ElbertF/Wappalyzer/blob/master/share/apps.json) (use a JSON 
   [validator](http://jsonformatter.curiousconcept.com)).
-* Add a 16x16 PNG image to `share/images/icons` matching the application name 
+* Add a 16x16 PNG image to [`share/images/icons`](https://github.com/ElbertF/Wappalyzer/tree/master/share/images/icons) matching the application name 
   (use [Smush.it](http://www.smushit.com) or [OptiPNG](http://optipng.sourceforge.net) for compression).
 * Provide the URL to the application's website when submitting a pull request.
 
