@@ -19,11 +19,11 @@ preference pages, locales and [wappalyzer.com](http://wappalyzer.com).
 
 ### Mozilla Firefox
 
-Copy `drivers/firefox/locale/en-US` and update its contents.
+Copy [`drivers/firefox/locale/en-US`](https://github.com/ElbertF/Wappalyzer/tree/master/drivers/firefox/locale/en-US) and update its contents.
 
 ### Google Chrome
 
-Copy `drivers/chrome/_locales/en` and update its contents.
+Copy [`drivers/chrome/_locales/en`](https://github.com/ElbertF/Wappalyzer/tree/master/drivers/chrome/_locales/en) and update its contents.
 
 ## Refactoring or adding new features
 
