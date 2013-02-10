@@ -36,14 +36,14 @@ Except `cats`, all fields are optional and accept one or more patterns (either a
 
 Patterns are case insensitive [regular expressions](https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Regular_Expressions). No surrounding delimiters or flags are used. Note that escape characters need to be escaped themselves for the JSON to be valid. Slashes (`/`) do not need to be escaped.
 
-Optional fields can be appended, separated by `\\;`:
+Optional fields may be appended, separated by `\\;`:
 
 field      | description
 -----------|------------
 confidence | Indicates less reliable patterns that may cause false positives. The aim is to achieve a combined confidence of 100%. Defaults to 100% for unspecified fields.
 version    | Gets the version number from a pattern match using a special syntax.
 
-The confidence field can also be applied to the `implied` field.
+The confidence field may also be applied to the `implied` field. The `implied` confidence is multiplied by confidence of the pattern that identified the original application.
 
 #### Version syntax
 
