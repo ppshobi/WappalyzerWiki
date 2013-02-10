@@ -31,7 +31,7 @@ Beta version available for testing at
 The HTML driver serves purely as an example. It's a good starting point if you
 want to [port](https://github.com/ElbertF/Wappalyzer/wiki/Unofficial-drivers-and-ports) Wappalyzer to a new platform.
 
-* Navigate to `drivers/html/`
+* Navigate to `drivers/html/` in a web browser.
 
 ## PHP
 
