@@ -64,6 +64,6 @@ $detectedApps = $wappalyzer->analyze();
 
 Work in progress, experimental. See https://wiki.mozilla.org/Jetpack.
 
-## Unofficial drivers and ports
+## Unofficial drivers
 
 See [unofficial drivers and ports](https://github.com/ElbertF/Wappalyzer/wiki/Unofficial-drivers-and-ports) for more.
