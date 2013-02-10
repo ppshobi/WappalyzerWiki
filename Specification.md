@@ -6,12 +6,12 @@
 "Application Name": { 
 	"cats":    [ 1 ], 
 	"headers": { "X-Powered-By": "Application Name" },
-	"url":     ".+\\.application-name\\.com",
-	"html":    "<link[^>]application-name\\.css", 
+	"url":     ".+\\\.application-name\\\.com",
+	"html":    "<link[^>]application-name\\\.css", 
 	"meta":    { "generator": [ "Application Name", "Alternative Application Name" ] },
-	"script":  "application-name-([0-9.]+)\\.js\\;confidence:50\\;version:\\1",
+	"script":  "application-name-([0-9.]+)\\\.js\\\;confidence:50\\\;version:\\\1",
 	"env":     "ApplicationName",
-	"implies": "PHP\\;confidence:50",
+	"implies": "PHP\\\;confidence:50",
 	}
 ```
 
