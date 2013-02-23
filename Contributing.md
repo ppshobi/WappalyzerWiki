@@ -8,7 +8,6 @@ To get started, please read the guidelines below as well as the [specification](
   [validator](http://jsonformatter.curiousconcept.com)).
 * Add a 16x16 PNG image to [`share/images/icons`](https://github.com/ElbertF/Wappalyzer/tree/master/share/images/icons) matching the application name 
   (use [Smush.it](http://www.smushit.com) or [OptiPNG](http://optipng.sourceforge.net) for compression).
-* Provide the URL to the application's website when submitting a pull request.
 
 ## Adding a new category
 
