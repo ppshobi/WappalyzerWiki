@@ -6,6 +6,7 @@ Wappalyzer uses a long list of regular expressions to evaluate web pages and det
 
 ```javascript
 "Application Name": { 
+        "website": "example.com", 
 	"cats":    [ 1 ], 
 	"headers": { "X-Powered-By": "Application Name" },
 	"url":     ".+\\\.application-name\\\.com",
@@ -21,6 +22,7 @@ Wappalyzer uses a long list of regular expressions to evaluate web pages and det
 
 field      | type   | description
 -----------|--------|------------
+website    | string         | URL of the application's website.
 cats       | array          | List of category IDs. See [apps.json](https://github.com/ElbertF/Wappalyzer/blob/master/share/apps.json) for the complete list.
 env        | array / string | Global JavaScript variables, e.g. `jQuery`.
 headers    | object         | HTTP Response headers, e.g. `X-Powered-By`.
@@ -30,7 +32,7 @@ url        | array / string | URL of the page, e.g. `http://wordpress.com/index.
 meta       | object         | HTML meta tags, e.g. `generator`.
 script     | array / string | `src` attribute of HTML script tags, e.g. `jquery.js`.
 
-Except `cats`, all fields are optional and accept one or more patterns (either a string or an array of regular expressions).
+Except `cats` and `website` all fields are optional and accept one or more patterns (either a string or an array of regular expressions).
 
 ### Patterns
 
