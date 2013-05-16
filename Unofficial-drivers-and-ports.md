@@ -12,6 +12,12 @@ A driver by [@ebradbury](https://github.com/ebradbury).
 
 https://github.com/ebradbury/Wappalyzer/tree/master/drivers/python
 
+## Python
+
+A pip-installable driver by [Clay McClure](https://github.com/claymation).
+
+https://github.com/claymation/python-Wappalyzer
+
 ## Ruby
 
 A port by [@skroutz](https://github.com/skroutz).
