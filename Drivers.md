@@ -59,6 +59,26 @@ $wappalyzer = new Wappalyzer($url);
 $detectedApps = $wappalyzer->analyze();
 ```
 
+## Python
+
+The Python driver requires [PyV8](https://code.google.com/p/pyv8/). If you are running on Mac, download  [PyV8 (Mac Build)](http://www.dcl.hpi.uni-potsdam.de/home/loewis/pyv8/) and use the command: `otool -L _PyV8.so` linked library.
+
+Runnning Wappalyzer from the command line:
+
+    $ python drivers/python/wappalyzer.py http://github.com
+    {"Ruby on Rails":{"categories":["web-frameworks"],"confidence":50,"version":""},"Ruby":{"categories":["programming-languages"],"confidence":50,"version":""}}
+
+Running Wappalyzer inside a Python module:
+
+```python
+from wappalyzer import Wappalyzer
+
+if __name__ == '__main__':
+    w = Wappalyzer('http://github.com')
+    output = w.analyze()
+    print(output)
+```
+
 ## Mozilla Jetpack
 
 Work in progress, experimental. See https://wiki.mozilla.org/Jetpack.
