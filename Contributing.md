@@ -4,6 +4,11 @@ To get started, please read the guidelines below as well as the [specification](
 
 ## Adding a new application
 
+###What should be detected
+Wappalyzer should only detect technologies used for a web page itself, not those of embedded resources.
+<table><thead><tr><td colspan="2"><h4>Examples</h4><tr><td><strong>Feature</strong><td><strong>Should be detected?</strong></thead><tbody><tr><td>Web server of the page the user is viewing<td>Yes<tr><td>Video player used by the web page the user is viewing<td>Yes<tr><td><abbr title="Content Distribution Network">CDN</abbr> used by an embedded image<td><strong>No</strong><sup><a href="https://github.com/ElbertF/Wappalyzer/issues/132#issuecomment-9508359">[1]</a><a href="https://github.com/ElbertF/Wappalyzer/pull/359#issuecomment-26184611">[2]</a></sup></table>
+
+###How to add
 * Edit [`share/apps.json`](https://github.com/ElbertF/Wappalyzer/blob/master/share/apps.json) (use a JSON 
   [validator](http://jsonformatter.curiousconcept.com)).
 * Add a 16x16 PNG image to [`share/images/icons`](https://github.com/ElbertF/Wappalyzer/tree/master/share/images/icons) matching the application name 
