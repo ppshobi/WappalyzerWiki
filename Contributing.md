@@ -11,7 +11,7 @@ Wappalyzer should only detect technologies used for a web page itself, not those
 ###How to add
 * Edit [`share/apps.json`](https://github.com/ElbertF/Wappalyzer/blob/master/share/apps.json) (use a JSON 
   [validator](http://jsonformatter.curiousconcept.com)).
-* Add a 16x16 PNG image to [`share/images/icons`](https://github.com/ElbertF/Wappalyzer/tree/master/share/images/icons) matching the application name 
+* Add a 32x32 PNG image to [`share/images/icons`](https://github.com/ElbertF/Wappalyzer/tree/master/share/images/icons) matching the application name 
   (use [Smush.it](http://www.smushit.com) or [OptiPNG](http://optipng.sourceforge.net) for compression).
 
 ## Adding a new category
