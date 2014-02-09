@@ -79,9 +79,9 @@ if __name__ == '__main__':
     print(output)
 ```
 
-## Mozilla Jetpack
+## Mozilla SDK
 
-Work in progress, experimental. See https://wiki.mozilla.org/Jetpack.
+Work in progress, experimental. See https://developer.mozilla.org/Add-ons/SDK.
 
 ## Unofficial drivers
 
