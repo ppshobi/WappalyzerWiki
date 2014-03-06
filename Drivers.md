@@ -8,18 +8,15 @@ or `links.cmd` (Windows).
 
 ## Mozilla Firefox
 
-* Create a file called `wappalyzer@crunchlabz.com` in the `extensions` directory in
-  your [profile folder](http://kb.mozillazine.org/Profile_folder_-_Firefox) containing the path to `drivers/firefox`.
-* Restart Firefox.
-* Navigate to `about:config` and set `extensions.wappalyzer.debug` to `true`.
-* Ctrl+Shift+J brings up a console for debugging.
+* [Download, install and activate the Add-on SDK](https://developer.mozilla.org/en-US/Add-ons/SDK/Tutorials/Installation).
+* On the command line, from [`drivers/firefox/`](https://github.com/ElbertF/Wappalyzer/tree/master/drivers/firefox), execute `cfx run`.
 
 ## Google Chrome
 
 * Navigate to `about:extensions`.
 * Check "Developer mode".
 * Click "Load unpacked extension...".
-* Select `drivers/chrome/`.
+* Select [`drivers/chrome/`](https://github.com/ElbertF/Wappalyzer/tree/master/drivers/chrome).
 
 ## Bookmarklet
 
@@ -79,9 +76,13 @@ if __name__ == '__main__':
     print(output)
 ```
 
-## Mozilla SDK
+## Mozilla Firefox (XUL version; deprecated)
 
-Work in progress, experimental. See https://developer.mozilla.org/Add-ons/SDK.
+* Create a file called `wappalyzer@crunchlabz.com` in the `extensions` directory in
+  your [profile folder](http://kb.mozillazine.org/Profile_folder_-_Firefox) containing the path to `drivers/firefox-xul`.
+* Restart Firefox.
+* Navigate to `about:config` and set `extensions.wappalyzer.debug` to `true`.
+* Ctrl+Shift+J brings up a console for debugging.
 
 ## Unofficial drivers
 
