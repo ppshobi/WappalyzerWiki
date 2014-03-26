@@ -60,6 +60,21 @@ $detectedApps = $wappalyzer->analyze();
 
 The Python driver requires [PyV8](https://code.google.com/p/pyv8/). If you are running on Mac, download  [PyV8 (Mac Build)](http://www.dcl.hpi.uni-potsdam.de/home/loewis/pyv8/) and use the command: `otool -L _PyV8.so` linked library.
 
+You can use pip install pyv8:
+
+    pip install -v pyv8
+
+or manually install:
+
+    sudo apt-get install -y libboost-thread-dev libboost-all-dev python-dev git-core autoconf libtool
+    svn checkout http://v8.googlecode.com/svn/trunk/ v8
+    svn checkout http://pyv8.googlecode.com/svn/trunk/ pyv8
+    cd v8
+    export PyV8=`pwd`
+    cd .. /pyv8
+    sudo python setup.py build
+    sudo python setup.py install
+
 Runnning Wappalyzer from the command line:
 
     $ python drivers/python/wappalyzer.py http://github.com
