@@ -9,12 +9,13 @@ Wappalyzer uses a long list of regular expressions to evaluate web pages and det
         "website": "example.com", 
 	"cats":    [ 1 ], 
 	"headers": { "X-Powered-By": "Application Name" },
-	"url":     ".+\\\.application-name\\\.com",
-	"html":    "<link[^>]application-name\\\.css", 
+	"url":     ".+\\.application-name\\.com",
+	"html":    "<link[^>]application-name\\.css", 
 	"meta":    { "generator": [ "Application Name", "Alternative Application Name" ] },
-	"script":  "application-name-([0-9.]+)\\\.js\\\;confidence:50\\\;version:\\\\1",
+	"script":  "application-name-([0-9.]+)\\.js\\;confidence:50\\;version:\\1",
 	"env":     "ApplicationName",
-	"implies": "PHP\\\;confidence:50",
+	"implies": "PHP\\;confidence:50",
+	"excludes": "Other Application Name"
 	}
 ```
 
@@ -28,6 +29,7 @@ env        | array / string | Global JavaScript variables, e.g. `jQuery`.
 headers    | object         | HTTP Response headers, e.g. `X-Powered-By`.
 html       | array / string | Full HTML response body.
 implies    | array / string | The presence of one application can imply the presence of another, e.g. Drupal means PHP is also in use.
+excludes   | array / string | Opposite of implies. The presence of one application can exclude the presence of another.
 url        | array / string | URL of the page, e.g. `http://wordpress.com/index.php`.
 meta       | object         | HTML meta tags, e.g. `generator`.
 script     | array / string | `src` attribute of HTML script tags, e.g. `jquery.js`.
