@@ -26,12 +26,12 @@ field      | type           | description  | Example
 website    | string         | URL of the application's website, with the protocol left off. | `"example.com"`
 cats       | array          | List of category IDs. See [apps.json](https://github.com/ElbertF/Wappalyzer/blob/master/share/apps.json) for the complete list. | `[ 1, 6 ]`
 env        | array / string | Global JavaScript variables, e.g. `jQuery`.<br>**Note that this will only detect *top-level* variables**; e.g. the following will **not** work: `^jQuery\\.fooBar$`. | `"^jQuery$"`
-headers    | object         | HTTP Response headers, e.g. `X-Powered-By`. | `{ "X-Powered-By": "^Hello(?:World|Universe)" }`
+headers    | object         | HTTP Response headers, e.g. `X-Powered-By`. | <code>{ "X-Powered-By": "^Hello(?:World&#124;Universe)" }</code>
 html       | array / string | Full HTML response body. | `"<a [^>]*href=\"[^\"]+/foo/bar"`
 implies    | array / string | The presence of one application can imply the presence of another, e.g. Drupal means PHP is also in use. | `[ "PHP", "jQuery" ]`
 excludes   | array / string | Opposite of implies. The presence of one application can exclude the presence of another. | `"Apache"`
 url        | array / string | URL of the page, e.g. `http://wordpress.com/index.php`. | `"/cart/checkout\\?(?:.*&)?shopname_sess="`
-meta       | object         | HTML meta tags, e.g. `generator`. | `{ "generator": "^Hello(?:World|Universe)" }`
+meta       | object         | HTML meta tags, e.g. `generator`. | <code>{ "generator": "^Hello(?:World&#124;Universe)" }</code>
 script     | array / string | `src` attribute of HTML script tags, e.g. `jquery.js`. | `"my_js_lib\\.js"`
 
 Except `cats` and `website` all fields are optional and accept one or more patterns (either a string or an array of regular expressions).
