@@ -25,7 +25,7 @@ field      | type   | description
 -----------|--------|------------
 website    | string         | URL of the application's website.
 cats       | array          | List of category IDs. See [apps.json](https://github.com/ElbertF/Wappalyzer/blob/master/share/apps.json) for the complete list.
-env        | array / string | Global JavaScript variables, e.g. `jQuery`. **Note that this will only detect *top-level* variables**; e.g. the following will **not** work: `^jQuery\\.fooBar$
+env        | array / string | Global JavaScript variables, e.g. `jQuery`.<br>**Note that this will only detect *top-level* variables**; e.g. the following will **not** work: `^jQuery\\.fooBar$`.
 headers    | object         | HTTP Response headers, e.g. `X-Powered-By`.
 html       | array / string | Full HTML response body.
 implies    | array / string | The presence of one application can imply the presence of another, e.g. Drupal means PHP is also in use.
