@@ -91,13 +91,6 @@ if __name__ == '__main__':
     print(output)
 ```
 
-## Mozilla Firefox (XUL version; deprecated)
-
-* Create a file called `wappalyzer@crunchlabz.com` in the `extensions` directory in
-  your [profile folder](http://kb.mozillazine.org/Profile_folder_-_Firefox) containing the path to `drivers/firefox-xul`.
-* Restart Firefox.
-* Navigate to `about:config` and set `extensions.wappalyzer.debug` to `true`.
-* Ctrl+Shift+J brings up a console for debugging.
 
 ## Unofficial drivers
 
