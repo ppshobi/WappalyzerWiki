@@ -6,7 +6,7 @@ Wappalyzer uses a long list of regular expressions to evaluate web pages and det
 
 ```javascript
 "Application Name": { 
-        "website": "example.com", 
+	"website": "example.com", 
 	"cats":    [ 1 ], 
 	"headers": { "X-Powered-By": "Application Name" },
 	"url":     ".+\\.application-name\\.com",
