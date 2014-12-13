@@ -7,7 +7,8 @@ To get started, please read the guidelines below as well as the [specification](
 * Edit [`share/apps.json`](https://github.com/ElbertF/Wappalyzer/blob/master/share/apps.json) (use a JSON 
   [validator](http://jsonformatter.curiousconcept.com)).
 * Add a 32x32 PNG image to [`share/images/icons`](https://github.com/ElbertF/Wappalyzer/tree/master/share/images/icons) matching the application name 
-  (use [Smush.it](http://www.smushit.com) or [OptiPNG](http://optipng.sourceforge.net) for compression).
+  (use [iConvert Icons](http://iconverticons.com/online/) to convert from ICO format if needed; and then
+  [Kraken](https://kraken.io/web-interface), [Smush.it](http://www.smushit.com) or [OptiPNG](http://optipng.sourceforge.net) for compression).
 
 ## Adding a new category
 
