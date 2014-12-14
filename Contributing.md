@@ -12,8 +12,7 @@ To get started, please read the guidelines below as well as the [specification](
 
 ## Adding a new category
 
-Please [open an issue](https://github.com/ElbertF/Wappalyzer/issues) to discuss. Adding a category involves updating `apps.json`,
-preference pages, locales and [wappalyzer.com](http://wappalyzer.com).
+Please [open an issue](https://github.com/ElbertF/Wappalyzer/issues) to discuss. Adding a category involves updating `apps.json`, locales and [wappalyzer.com](http://wappalyzer.com).
 
 ## Adding a new translation
 
