@@ -37,7 +37,7 @@ want to [port](https://github.com/ElbertF/Wappalyzer/wiki/Unofficial-drivers-and
 
 To run (on Mac or Linux):
 
-`$ cd drivers/phantomjs`
+`$ cd drivers/phantomjs`  
 `$ ./lib/phantomjs js/driver.js http://wappalyzer.com`
 
 To enable debugging, add `-v` or `--verbose`:
