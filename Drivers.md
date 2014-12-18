@@ -30,7 +30,7 @@ want to [port](https://github.com/ElbertF/Wappalyzer/wiki/Unofficial-drivers-and
 
 * Navigate to `drivers/html/` in a web browser.
 
-## PhantomJS
+## PhantomJS (recommended)
 
 * [Download PhantomJS](http://phantomjs.org/download.html) and extract the archive.
 * Place the PhantomJS binary (not the folder) in `drivers/phantomjs/lib`.
