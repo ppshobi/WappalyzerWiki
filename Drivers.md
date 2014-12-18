@@ -30,6 +30,22 @@ want to [port](https://github.com/ElbertF/Wappalyzer/wiki/Unofficial-drivers-and
 
 * Navigate to `drivers/html/` in a web browser.
 
+## PhantomJS
+
+* [Download PhantomJS](http://phantomjs.org/download.html) and extract the archive.
+* Place the PhantomJS binary (not the folder) in `drivers/phantomjs/lib`.
+
+To run (on Mac or Linux):
+
+`$ cd drivers/phantomjs`
+`$ ./lib/phantomjs js/driver.js http://wappalyzer.com`
+
+To enable debugging, add `-v` or `--verbose`:
+
+`$ ./lib/phantomjs js/driver.js http://wappalyzer.com -v`
+
+The return value is a JSON string.
+
 ## PHP
 
 The PHP driver requires the [V8js](http://php.net/manual/en/book.v8js.php) 
