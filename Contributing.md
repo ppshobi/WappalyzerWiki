@@ -2,6 +2,9 @@ Anyone who wants to contribute is more than welcome to do so! Wappalyzer has bee
 
 To get started, please read the guidelines below as well as the [specification](https://github.com/ElbertF/Wappalyzer/wiki/Specification). For instructions on how to install Wappalyzer to test your changes, see the [[Drivers]] page.
 
+## Getting started
+After cloning the repository, run `links.sh` (Linux/Mac) or `links.cmd` (Windows) to copy the shared files to each driver.
+
 ## Adding a new application
 
 * Edit [`share/apps.json`](https://github.com/ElbertF/Wappalyzer/blob/master/share/apps.json) (use a JSON 
