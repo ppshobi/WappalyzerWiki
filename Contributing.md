@@ -1,9 +1,6 @@
 Anyone who wants to contribute is more than welcome to do so! Wappalyzer has been improved by [many](https://github.com/ElbertF/Wappalyzer/graphs/contributors).
 
-To get started, please read the guidelines below as well as the [specification](https://github.com/ElbertF/Wappalyzer/wiki/Specification). For instructions on how to install Wappalyzer to test your changes, see the [[Drivers]] page.
-
-## Getting started
-After cloning the repository, run `links.sh` (Linux/Mac) or `links.cmd` (Windows) to copy the shared files to each driver.
+To get started, please read the [README](https://github.com/ElbertF/Wappalyzer/blob/master/README.md), the guidelines below and the [specification](https://github.com/ElbertF/Wappalyzer/wiki/Specification). For instructions on how to install Wappalyzer to test your changes, see the [[Drivers]] page.
 
 ## Adding a new application
 
