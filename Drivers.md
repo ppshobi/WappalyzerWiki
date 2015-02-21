@@ -1,10 +1,8 @@
 A driver provides an interface between Wappalyzer's core code and a specific platform (such a web browser).
 
-All shared components are located the [`share/`](https://github.com/ElbertF/Wappalyzer/tree/master/share) directory. Platform specific code lives in [`drivers/`](https://github.com/ElbertF/Wappalyzer/tree/master/drivers). The sections below describe how to set up
-a development environment for the various drivers.
+The [`src/drivers/`](https://github.com/ElbertF/Wappalyzer/tree/master/src/drivers) directory contains platform specific code. The remaining files in [`src/`](https://github.com/ElbertF/Wappalyzer/tree/master/src) are shared components, used by each of the drivers.
 
-To keep shared files synchronised between drivers, run `links.sh` (UNIX-like systems)
-or `links.cmd` (Windows).
+The page describes how to use the drivers.
 
 ## Mozilla Firefox
 
