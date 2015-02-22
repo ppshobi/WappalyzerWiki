@@ -21,6 +21,8 @@ Wappalyzer uses a long list of regular expressions to evaluate web pages and det
 
 ### JSON fields
 
+Refer to the [JSON schema](https://github.com/ElbertF/Wappalyzer/blob/master/schema.json).
+
 field      | type           | description  | Example
 -----------|----------------|--------------|--------------
 website    | string         | URL of the application's website, with the protocol left off. | `"example.com"`
