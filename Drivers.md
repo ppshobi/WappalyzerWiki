@@ -26,21 +26,17 @@ Beta version available for testing at
 The HTML driver serves purely as an example. It's a good starting point if you
 want to [port](https://github.com/ElbertF/Wappalyzer/wiki/Unofficial-drivers-and-ports) Wappalyzer to a new platform.
 
-* Navigate to `drivers/html/` in a web browser.
+* Open `index.html` a web browser.
 
 ## PhantomJS (recommended)
 
-* [Download PhantomJS](http://phantomjs.org/download.html) and extract the archive.
-* Place the PhantomJS binary (not the folder) in `drivers/phantomjs/lib`.
+Install [PhantomJS](http://phantomjs.org/) on your system or run this in the Vagrant development environment.
 
-To run (on Mac or Linux):
-
-`$ cd drivers/phantomjs`  
-`$ ./lib/phantomjs js/driver.js http://wappalyzer.com`
+`$ phantomjs driver.js https://wappalyzer.com`
 
 To enable debugging, add `-v` or `--verbose`:
 
-`$ ./lib/phantomjs js/driver.js http://wappalyzer.com -v`
+`$ phantomjs driver.js https://wappalyzer.com -v`
 
 The return value is a JSON string.
 
