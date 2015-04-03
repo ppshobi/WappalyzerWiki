@@ -18,11 +18,11 @@ Please [open an issue](https://github.com/ElbertF/Wappalyzer/issues) to discuss.
 
 ### Mozilla Firefox
 
-Copy [`drivers/firefox/locale/en-US`](https://github.com/ElbertF/Wappalyzer/tree/master/drivers/firefox/locale/en-US) and update its contents.
+Copy [`src/drivers/firefox/locale/en-US`](https://github.com/ElbertF/Wappalyzer/tree/master/src/drivers/firefox/locale/en-US) and update its contents.
 
 ### Google Chrome
 
-Copy [`drivers/chrome/_locales/en`](https://github.com/ElbertF/Wappalyzer/tree/master/drivers/chrome/_locales/en) and update its contents.
+Copy [`src/drivers/chrome/_locales/en`](https://github.com/ElbertF/Wappalyzer/tree/master/src/drivers/chrome/_locales/en) and update its contents.
 
 ## Refactoring or adding new features
 
