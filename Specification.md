@@ -1,6 +1,6 @@
 ## apps.json
 
-Wappalyzer uses a long list of regular expressions to evaluate web pages and detect web applications. The list is located at [`share/apps.json`](https://github.com/ElbertF/Wappalyzer/blob/master/share/apps.json).
+Wappalyzer uses a long list of regular expressions to evaluate web pages and detect web applications. The list is located at [`share/apps.json`](https://github.com/ElbertF/Wappalyzer/blob/master/src/apps.json).
 
 #### Example
 
