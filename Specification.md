@@ -1,6 +1,6 @@
 ## apps.json
 
-Wappalyzer uses a long list of regular expressions to evaluate web pages and detect web applications. The list is located at [`src/apps.json`](https://github.com/ElbertF/Wappalyzer/blob/master/src/apps.json).
+Wappalyzer uses a long list of regular expressions to evaluate web pages and detect web applications. The list is located at [`src/apps.json`](https://github.com/AliasIO/Wappalyzer/blob/master/src/apps.json).
 
 #### Example
 
@@ -26,7 +26,7 @@ Refer to the [JSON schema](https://github.com/ElbertF/Wappalyzer/blob/master/sch
 field      | type           | description  | Example
 -----------|----------------|--------------|--------------
 website    | string         | URL of the application's website, with the protocol left off. | `"example.com"`
-cats       | array          | List of category IDs. See [apps.json](https://github.com/ElbertF/Wappalyzer/blob/master/share/apps.json) for the complete list. | `[ 1, 6 ]`
+cats       | array          | List of category IDs. See [apps.json](https://github.com/AliasIO/Wappalyzer/blob/master/src/apps.json) for the complete list. | `[ 1, 6 ]`
 env        | array / string | Global JavaScript variables, e.g. `jQuery`.<br>**Note that this will only detect *top-level* variables**; e.g. the following will **not** work: `^jQuery\\.fooBar$`. | `"^jQuery$"`
 headers    | object         | HTTP Response headers, e.g. `X-Powered-By`. | <code>{ "X-Powered-By": "^Hello(?:World&#124;Universe)" }</code>
 html       | array / string | Full HTML response body. | `"<a [^>]*href=\"[^\"]+/foo/bar"`
