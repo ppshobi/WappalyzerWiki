@@ -7,7 +7,7 @@ The page describes how to use the drivers.
 ## Mozilla Firefox
 
 * [Download, install and activate the Add-on SDK](https://developer.mozilla.org/en-US/Add-ons/SDK/Tutorials/Installation).
-* On the command line, from [`drivers/firefox/`](https://github.com/ElbertF/Wappalyzer/tree/master/drivers/firefox), execute `cfx run`.
+* On the command line, from [`drivers/firefox/`](https://github.com/ElbertF/Wappalyzer/tree/master/drivers/firefox), execute `jpm run`.
 
 ## Google Chrome
 
