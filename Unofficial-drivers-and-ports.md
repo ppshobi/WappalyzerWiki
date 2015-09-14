@@ -38,6 +38,6 @@ https://metacpan.org/module/WWW::Wappalyzer
 
 ## Go
 
-A port by [@rverton].
+A port by [@rverton](https://github.com/rverton).
 
 https://github.com/rverton/webanalyze
