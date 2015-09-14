@@ -35,3 +35,9 @@ https://github.com/skroutz/wappalyzer-ruby
 A port by [Alexander Nalobin](https://metacpan.org/author/NALOBIN).
 
 https://metacpan.org/module/WWW::Wappalyzer
+
+## Go
+
+A port by [@rverton].
+
+https://github.com/rverton/webanalyze
