@@ -5,7 +5,7 @@ To get started, please read the [README](https://github.com/ElbertF/Wappalyzer/b
 ## Adding a new application
 
 * Edit [`share/apps.json`](https://github.com/ElbertF/Wappalyzer/blob/master/share/apps.json) (use a JSON 
-  [validator](http://jsonformatter.curiousconcept.com)).
+  [validator](https://jsonformatter.curiousconcept.com/)).
 * Add a 32x32 PNG image to [`share/images/icons`](https://github.com/ElbertF/Wappalyzer/tree/master/share/images/icons) matching the application name 
   (use [iConvert Icons](http://iconverticons.com/online/) to convert from ICO format if needed; and then
   [Kraken](https://kraken.io/web-interface), [Tinypng.com](https://tinypng.com/) or [OptiPNG](http://optipng.sourceforge.net) for compression).
