@@ -4,21 +4,21 @@ To get started, please read the [README](https://github.com/ElbertF/Wappalyzer/b
 
 ## Adding a new application
 
-* Edit [`share/apps.json`](https://github.com/ElbertF/Wappalyzer/blob/master/share/apps.json) (use a JSON 
+* Edit [`src/apps.json`](https://github.com/ElbertF/Wappalyzer/blob/master/src/apps.json) (use a JSON 
   [validator](https://jsonformatter.curiousconcept.com/)).
-* Add a 32x32 PNG image to [`share/images/icons`](https://github.com/ElbertF/Wappalyzer/tree/master/share/images/icons) matching the application name 
+* Add a 32x32 PNG image to [`src/icons`](https://github.com/ElbertF/Wappalyzer/tree/master/src/icons) matching the application name 
   (use [iConvert Icons](http://iconverticons.com/online/) to convert from ICO format if needed; and then
   [Kraken](https://kraken.io/web-interface), [Tinypng.com](https://tinypng.com/) or [OptiPNG](http://optipng.sourceforge.net) for compression).
 
 ## Adding a new category
 
-Please [open an issue](https://github.com/ElbertF/Wappalyzer/issues) to discuss. Adding a category involves updating `apps.json`, locales and [wappalyzer.com](http://wappalyzer.com).
+Please [open an issue](https://github.com/AliasIO/Wappalyzer/issues/new) to discuss. Adding a category involves updating `apps.json`, locales and [wappalyzer.com](https://wappalyzer.com).
 
 ## Adding a new translation
 
 ### Mozilla Firefox
 
-Copy [`src/drivers/firefox/locale/en-US`](https://github.com/ElbertF/Wappalyzer/tree/master/src/drivers/firefox/locale/en-US) and update its contents.
+Copy [`src/drivers/firefox/locale/en-US.properties`](https://github.com/AliasIO/Wappalyzer/blob/master/src/drivers/firefox/locale/en-US.properties) and update its contents.
 
 ### Google Chrome
 
@@ -26,7 +26,7 @@ Copy [`src/drivers/chrome/_locales/en`](https://github.com/ElbertF/Wappalyzer/tr
 
 ## Refactoring or adding new features
 
-I'm much more likely to merge a pull request if it's an incremental change rather than rewritten or added functionality. If you have an idea please [open an issue](https://github.com/ElbertF/Wappalyzer/issues) to discuss it first. I'm interested to hear it.
+I'm much more likely to merge a pull request if it's an incremental change rather than rewritten or added functionality. If you have an idea please [open an issue](https://github.com/ElbertF/Wappalyzer/issues/new) to discuss it first. I'm interested to hear it.
 
 ## Cleaning and improving the apps.json file
 
