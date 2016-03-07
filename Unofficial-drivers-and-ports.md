@@ -30,7 +30,7 @@ A port by [@skroutz](https://github.com/skroutz).
 
 https://github.com/skroutz/wappalyzer-ruby
 
-A port by [@pulkit21](https://github.com/pulkit21).
+A port by [Pulkit Agarwal](https://github.com/pulkit21).
 
 https://github.com/pulkit21/wappalyzer
 
