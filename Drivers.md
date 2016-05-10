@@ -1,20 +1,20 @@
 A driver provides an interface between Wappalyzer's core code and a specific platform (such a web browser).
 
-The [`src/drivers/`](https://github.com/ElbertF/Wappalyzer/tree/master/src/drivers) directory contains platform specific code. The remaining files in [`src/`](https://github.com/ElbertF/Wappalyzer/tree/master/src) are shared components, used by each of the drivers.
+The [`src/drivers/`](https://github.com/AliasIO/Wappalyzer/tree/master/src/drivers) directory contains platform specific code. The remaining files in [`src/`](https://github.com/AliasIO/Wappalyzer/tree/master/src) are shared components, used by each of the drivers.
 
 The page describes how to use the drivers.
 
 ## Mozilla Firefox
 
 * [Install the Add-on SDK](https://developer.mozilla.org/en-US/Add-ons/SDK/Tutorials/Installation).
-* On the command line, from [`drivers/firefox/`](https://github.com/ElbertF/Wappalyzer/tree/master/drivers/firefox), execute `jpm run`.
+* On the command line, from [`drivers/firefox/`](https://github.com/AliasIO/Wappalyzer/tree/master/src/drivers/firefox), execute `jpm run`.
 
 ## Google Chrome
 
 * Navigate to `about:extensions`.
 * Check "Developer mode".
 * Click "Load unpacked extension...".
-* Select [`drivers/chrome/`](https://github.com/ElbertF/Wappalyzer/tree/master/drivers/chrome).
+* Select [`drivers/chrome/`](https://github.com/AliasIO/Wappalyzer/tree/master/src/drivers/chrome).
 
 ## Bookmarklet
 
@@ -24,7 +24,7 @@ Beta version available for testing at
 ## HTML
 
 The HTML driver serves purely as an example. It's a good starting point if you
-want to [port](https://github.com/ElbertF/Wappalyzer/wiki/Unofficial-drivers-and-ports) Wappalyzer to a new platform.
+want to [port](https://github.com/AliasIO/Wappalyzer/wiki/Unofficial-drivers-and-ports) Wappalyzer to a new platform.
 
 * Open `index.html` a web browser.
 
@@ -104,4 +104,4 @@ if __name__ == '__main__':
 
 ## Unofficial drivers
 
-See [unofficial drivers and ports](https://github.com/ElbertF/Wappalyzer/wiki/Unofficial-drivers-and-ports) for more.
+See [unofficial drivers and ports](https://github.com/AliasIO/Wappalyzer/wiki/Unofficial-drivers-and-ports) for more.
