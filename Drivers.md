@@ -40,6 +40,9 @@ To enable debugging, add `-v` or `--verbose`:
 
 The return value is a JSON string.
 
+NOTE : If you get `ReferenceError: Can't find variable: wappalyzer ` copy apps.json and wappalyzer.js in the same directory as driver.js
+
+
 ## PHP
 
 The PHP driver requires the [V8js](http://php.net/manual/en/book.v8js.php) 
