@@ -8,6 +8,7 @@ The page describes how to use the drivers.
 
 Requires: [`phantomjs`](http://phantomjs.org/)
 
+**Usage**
 `$ phantomjs driver.js https://wappalyzer.com`
 
 ### NPM
@@ -16,6 +17,7 @@ Alternatively, Wappalyzer can be installed through NPM and run as a Node.js modu
 
 Requires: `node`, `npm`
 
+**Usage**
 `$ npm i wappalyzer`
 `$ cd node_modules/wappalyzer`
 `$ node index.js https://wappalyzer.com`
@@ -26,6 +28,7 @@ You can also run Wappalyzer through Docker.
 
 Requires: [`docker`](https://www.docker.com/)
 
+**Usage**
 `$ docker run wappalyzer/cli https://wappalyzer.com`
 
 ## Mozilla Firefox
