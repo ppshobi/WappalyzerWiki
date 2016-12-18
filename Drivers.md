@@ -4,23 +4,45 @@ The [`src/drivers/`](https://github.com/AliasIO/Wappalyzer/tree/master/src/drive
 
 The page describes how to use the drivers.
 
-## PhantomJS (recommended)
+## PhantomJS
+
+PhantomJS is a headless browser that can used to run Wappalyzer on any Linux, Mac or Windows machine. It can be installed either directly or through NPM or Docker. Information about websites is returned in JSON format.
 
 Requires: [`phantomjs`](http://phantomjs.org/)
 
-**Usage**
-`$ phantomjs driver.js https://wappalyzer.com`
+#### Usage
+
+```shell
+$ phantomjs driver.js https://wappalyzer.com
+```
+
+#### Arguments
+
+```
+-v, --verbose            Display debug output
+
+-q, --quiet              Suppress errors
+
+--resource-timeout=ms    Abort the connection after 'ms' milliseconds
+```
 
 ### NPM
 
-Alternatively, Wappalyzer can be installed through NPM and run as a Node.js module.
+Alternatively, Wappalyzer can be installed through NPM and run as a Node.js module (see the [README](https://github.com/AliasIO/Wappalyzer/blob/master/src/drivers/phantomjs/README.md) for more information).
 
 Requires: `node`, `npm`
 
-**Usage**
-`$ npm i wappalyzer`
-`$ cd node_modules/wappalyzer`
-`$ node index.js https://wappalyzer.com`
+#### Usage
+
+```shell
+$ npm i wappalyzer
+$ cd node_modules/wappalyzer
+$ node index.js https://wappalyzer.com
+```
+
+#### Arguments
+
+See [above](#arguments).
 
 ### Docker
 
@@ -28,8 +50,15 @@ You can also run Wappalyzer through Docker.
 
 Requires: [`docker`](https://www.docker.com/)
 
-**Usage**
-`$ docker run wappalyzer/cli https://wappalyzer.com`
+#### Usage
+
+```shell
+$ docker run wappalyzer/cli https://wappalyzer.com
+```
+
+#### Arguments
+
+See [above](#arguments).
 
 ## Mozilla Firefox
 
