@@ -6,7 +6,7 @@ The page describes how to use the drivers.
 
 ## PhantomJS (recommended)
 
-Requires: `[phantomjs](http://phantomjs.org/)`
+Requires: [`phantomjs`](http://phantomjs.org/)
 
 `$ phantomjs driver.js https://wappalyzer.com`
 
@@ -24,7 +24,7 @@ Requires: `node`, `npm`
 
 You can also run Wappalyzer through Docker.
 
-Requires: `[docker](https://www.docker.com/)`
+Requires: [`docker`](https://www.docker.com/)
 
 `$ docker run wappalyzer/cli https://wappalyzer.com`
 
