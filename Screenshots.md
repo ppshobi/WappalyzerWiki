@@ -2,11 +2,11 @@ Download Wappalyzer for Firefox or Chrome [here](http://wappalyzer.com/download)
 
 ## Mozilla Firefox
 
-![A screenshot of Wappalyzer on Mozilla Firefox](http://wappalyzer.com/sites/default/themes/wappalyzer/images/installed_firefox.png)
+![A screenshot of Wappalyzer on Mozilla Firefox](http://i63.tinypic.com/2mow5t3.jpg)
 
 ## Google Chrome
 
-![A screenshot of Wappalyzer on Google Chrome](http://wappalyzer.com/sites/default/themes/wappalyzer/images/installed_chrome.png)
+![A screenshot of Wappalyzer on Google Chrome](http://i65.tinypic.com/fpbe5f.jpg)
 
 ## Bookmarklet
 
