@@ -73,7 +73,7 @@ The text matched by the group is stored for later use, which makes it slower tha
 ##### Solution
 Use non-capturing groups (e.g. `(?:bar)`) or no group at all (e.g. `bar`) where appropriate.
 
-#### Too generic patterns
+#### Overly generic patterns
 Patterns should only match web pages that are actually using the app.
 
 ##### Problem
