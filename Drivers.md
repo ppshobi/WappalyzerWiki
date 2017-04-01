@@ -62,17 +62,18 @@ See [above](#arguments).
 
 ## Mozilla Firefox
 
-* [Install the Add-on SDK](https://developer.mozilla.org/en-US/Add-ons/SDK/Tutorials/Installation).
-* On the command line, from [`drivers/firefox/`](https://github.com/AliasIO/Wappalyzer/tree/master/src/drivers/firefox), execute `jpm run`.
+* Navigate to `about:debugging`.
+* Check "Load Temporary Add-on".
+* Select [`src/drivers/webextension/manifest.json`](https://github.com/AliasIO/Wappalyzer/blob/master/src/drivers/webextension/manifest.json).
 
 ## Google Chrome
 
 * Navigate to `about:extensions`.
 * Check "Developer mode".
 * Click "Load unpacked extension...".
-* Select [`drivers/chrome/`](https://github.com/AliasIO/Wappalyzer/tree/master/src/drivers/chrome).
+* Select [`src/drivers/webextension/`](https://github.com/AliasIO/Wappalyzer/tree/master/src/drivers/webextension).
 
 ## Bookmarklet
 
-Beta version available for testing at 
-[wappalyzer.com/bookmarklet](http://wappalyzer.com/bookmarklet).
+Available at 
+[wappalyzer.com/download#bookmarklet](https://wappalyzer.com/download#bookmarklet).
